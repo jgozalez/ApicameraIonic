@@ -18,3 +18,10 @@
     <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
   </div>
 </ion-content>
+<ion-content [fullscreen]="true">
+  <div id = "container">
+    <img src="{{imageSource}}" style="width: 400px;"/>
+    <ion-button (click)="takePicture()">Camera
+    </ion-button>
+  </div>
+</ion-content>
